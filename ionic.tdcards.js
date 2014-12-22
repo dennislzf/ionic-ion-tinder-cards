@@ -159,6 +159,9 @@
 
       // Trigger destroy after card has swiped out
       setTimeout(function() {
+        if (dir === 1){
+          
+        }
         self.onDestroy && self.onDestroy();
       }, duration * 1000);
     },
